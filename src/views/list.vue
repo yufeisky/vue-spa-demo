@@ -12,6 +12,7 @@
                 </div>
             </a>
         </div>
+        <p><a href="javascript:;" v-on:click="btnClick" class="button button-round">林彬测试事件</a></p>
     </div>
     <router-view>
     </router-view>
@@ -33,7 +34,10 @@
             console.log(this) // -> 'foo'
         },
         methods:{
-
+            btnClick:function(){
+                alert('ok');
+                this.records.splice(0, 1);
+            }
         }
     }
 </script>
