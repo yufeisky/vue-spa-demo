@@ -31,8 +31,6 @@
 
 <script>
 
-
-
 module.exports = {
     data :function() {
         return {
@@ -41,4 +39,5 @@ module.exports = {
         }
     }
 }
+
 </script>
